@@ -1,32 +1,68 @@
-# Power BI Dashboard
+# [Company Name] Sales Dashboard (Power BI)
 
-An interactive Power BI dashboard built as part of my Business Analytics degree at NSBM Green University. It analyses [describe the data, e.g. sales performance, operational efficiency, marketing campaigns] to support better business decisions.
+An interactive Power BI dashboard that analyses sales, profit and cost for [a supermarket chain with X branches in Sri Lanka]. The goal is to find which branches, products and customer groups make money, where costs are too high, and what the business should do next.
 
-## Objective
-[One or two sentences on the business problem, e.g. "Identify which products and regions drive the most revenue and where operations can be improved."]
+## Business Questions
+- How much does the business sell, and how much does it earn?
+- Which products, branches and provinces perform best and worst?
+- Which customer groups (gender, loyalty tier) bring the most profit?
+- When are sales and costs highest?
+- Do delivery days affect cost?
 
-## Dashboard Preview
-![Dashboard Page 1](images/dashboard-1.png)
-![Dashboard Page 2](images/dashboard-2.png)
+## Key Numbers
 
-## Key Insights
-- [Insight 1, e.g. "Region X generated 35% of total revenue."]
-- [Insight 2, e.g. "Delivery delays peaked in the final week of each month."]
-- [Insight 3]
+| Measure | Value |
+|---|---|
+| Net Sales | [X] |
+| Profit | [X] |
+| Total Quantity Sold | [X] |
+| Discount Amount | [X] |
+| Profit Margin | [about X%] |
+
+## Dashboard Pages
+
+### 1. Overview
+Net sales and profit by month, net sales and profit by product, total cost by province, and headline KPI cards.
+
+![Overview](images/overview.png)
+
+### 2. Profit Analysis
+Profit by category and gender, a decomposition tree that drills from branch to district to loyalty tier to product, and profit trends by product.
+
+![Profit Analysis](images/profit-analysis.png)
+
+### 3. Cost Analysis
+Total cost over time, gross sales compared with total cost by branch, a cost breakdown by branch, category and product, and the link between delivery days and cost.
+
+![Cost Analysis](images/cost-analysis.png)
+
+## Key Findings
+- **[Profit margin finding]** e.g. "Sales of X gave Y profit, so cost takes about Z% of every sale."
+- **[Best and worst product or category]** e.g. "Product A sells the most but has the lowest margin."
+- **[Branch finding]** e.g. "Branch X sells about N times more than Branch Y."
+- **[Province finding]** e.g. "Province X has the highest total cost."
+- **[Customer finding]** e.g. "Gold-tier customers bring X% of profit."
+- **[Timing finding]** e.g. "Sales peak in [months]."
+- **[Delivery finding]** e.g. "Delivery days show no clear link to cost."
+
+## Recommendations
+1. [Action for the weakest-margin product or category]
+2. [Action to grow the best-margin products]
+3. [Action to copy what the top branches do well]
+4. [Action to plan for peak months]
+5. [Action on discounts or costs]
 
 ## Tools Used
-- Power BI (data modelling, DAX measures, visuals)
-- Excel (data preparation)
-
-## Skills Demonstrated
-- Data cleaning and transformation
-- Dashboard design and storytelling
-- KPI tracking and business analysis
+- Power BI (dashboard and visuals)
+- DAX (measures such as profit and margin)
+- Excel (data source)
 
 ## How to Open
-1. Download `InclassBI.pbix` from this repository.
-2. Open it in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free, Windows only).
+1. Download `[your-file-name].pbix` from this repository.
+2. Open it in Power BI Desktop.
+3. Use the buttons to move between pages.
 
-## About Me
-Business Analytics undergraduate interested in marketing and operations analytics.
-[Add your LinkedIn link here]
+## Author
+**[Your Full Name]**
+Business Analytics Undergraduate, NSBM Green University
+[LinkedIn link]
