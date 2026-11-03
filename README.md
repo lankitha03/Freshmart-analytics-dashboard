@@ -1,4 +1,4 @@
-# [Project Title]: Power BI Dashboard
+# Power BI Dashboard
 
 An interactive Power BI dashboard built as part of my Business Analytics degree at NSBM Green University. It analyses [describe the data, e.g. sales performance, operational efficiency, marketing campaigns] to support better business decisions.
 
