@@ -1,4 +1,4 @@
-# [Company Name] Sales Dashboard (Power BI)
+# Sales Dashboard (Power BI)
 
 An interactive Power BI dashboard that analyses sales, profit and cost for [a supermarket chain with X branches in Sri Lanka]. The goal is to find which branches, products and customer groups make money, where costs are too high, and what the business should do next.
 
