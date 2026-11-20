@@ -65,8 +65,3 @@ Total cost vs gross sales by branch, total cost by quarter, delivery days vs cos
 1. Download `lanka-fresh-mart-dashboard.pbix` from this repository.
 2. Open it in Power BI Desktop.
 3. Use the arrow buttons to move between pages.
-
-## Author
-**[Your Full Name]**
-Business Analytics Undergraduate, NSBM Green University
-[LinkedIn link]
